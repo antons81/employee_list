@@ -13,14 +13,13 @@ Architecture:
     
 How it Works:
 
-   It fetches API contacts from both independent servers.
-   First, it's fetch from 1 server then from second one.
-   Provide contacts sort by last name and then removing duplicates.
-   Before it shows to the user, it's asking for phone contacts permissions and matching phone contacts with API contacts
-   If contacts are matched, the have 'contact details' button on right side in the list and top right corner on contact details.
-   By clicking this button, should open native cotact details screen.
+    It fetches API contacts from both independent servers.
+    First, it's fetch from 1 server then from second one.
+    Provide contacts sort by last name and then removing duplicates.
+    Before it shows to the user, it's asking for phone contacts permissions and matching phone contacts with API contacts
+    If contacts are matched, the have 'contact details' button on right side in the list and top right corner on contact details.
+    By clicking this button, should open native cotact details screen.
    
-    
  For Tester:
  
     Run the app, check if all conctas loaded, verify duplicates.
