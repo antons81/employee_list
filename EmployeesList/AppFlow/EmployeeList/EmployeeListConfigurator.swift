@@ -13,8 +13,7 @@ protocol EmployeeListConfiguratorProtocol: AnyObject {
     func config(viewController: EmployeeListViewController)
 }
 
-class EmployeeListConfigurator {
-}
+class EmployeeListConfigurator {}
 
 extension EmployeeListConfigurator: EmployeeListConfiguratorProtocol {
     
