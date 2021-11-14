@@ -59,7 +59,6 @@
 		1EE0DE7F27411AD0007FD011 /* EmployeeDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0DE7A27411AD0007FD011 /* EmployeeDetailsConfigurator.swift */; };
 		1EE0DE8027411AD0007FD011 /* EmployeeDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0DE7B27411AD0007FD011 /* EmployeeDetailsService.swift */; };
 		1EE0DE8227414B5D007FD011 /* ContactsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0DE8127414B5D007FD011 /* ContactsHelper.swift */; };
-		1EE0DE8427416C51007FD011 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1EE0DE8327416C51007FD011 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,7 +116,6 @@
 		1EE0DE7A27411AD0007FD011 /* EmployeeDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsConfigurator.swift; sourceTree = "<group>"; };
 		1EE0DE7B27411AD0007FD011 /* EmployeeDetailsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsService.swift; sourceTree = "<group>"; };
 		1EE0DE8127414B5D007FD011 /* ContactsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsHelper.swift; sourceTree = "<group>"; };
-		1EE0DE8327416C51007FD011 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +158,6 @@
 				1EE0DE4D27401C26007FD011 /* AppFlow */,
 				1EE0DD8F27401BC8007FD011 /* Main.storyboard */,
 				1EE0DD9227401BC9007FD011 /* Assets.xcassets */,
-				1EE0DE8327416C51007FD011 /* README.md */,
 				1EE0DD9427401BC9007FD011 /* LaunchScreen.storyboard */,
 				1EE0DD9727401BC9007FD011 /* Info.plist */,
 			);
@@ -418,7 +415,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE0DE8427416C51007FD011 /* README.md in Resources */,
 				1EE0DD9627401BC9007FD011 /* LaunchScreen.storyboard in Resources */,
 				1EE0DE6E274054E3007FD011 /* EmployeeCell.xib in Resources */,
 				1EE0DD9327401BC9007FD011 /* Assets.xcassets in Resources */,
