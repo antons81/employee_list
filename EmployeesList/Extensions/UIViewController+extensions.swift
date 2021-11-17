@@ -45,7 +45,7 @@ extension UINavigationController {
         navigationItem.title = name
         navigationItem.largeTitleDisplayMode = .never
         navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black,
-                                             NSAttributedString.Key.font: UIFont.univiaProBook12]
+                                             NSAttributedString.Key.font: UIFont.systemFontSize]
     }
     
     func presentTransparentNavigationBar() {
