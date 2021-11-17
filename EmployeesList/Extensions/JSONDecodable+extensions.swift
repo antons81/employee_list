@@ -8,6 +8,15 @@
 
 import Foundation
 
+extension Data {
+    mutating func append(string: String) {
+        let data = string.data(
+            using: String.Encoding.utf8,
+            allowLossyConversion: true)
+        append(data!)
+    }
+}
+
 extension JSONDecoder {
 
     /// Decode value at the keypath of the given type from the given JSON representation
